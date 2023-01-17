@@ -6,13 +6,16 @@ Você sabe para que serve a linguagem JavaScript / ECMAScript? Sabe a diferença
 Pois, para responder a essas e muitas outras perguntas, assista essa aula do Curso de JavaScript para Iniciantes até o final. E não se esqueça sempre de praticar todas as atividades que fizermos durante o vídeo no seu próprio computador.
 */
 
-alert("Olá, Mundo!");
-prompt.alert("Olá, Mundo 2!");
-alert("Olá, Mundo!")
-document.body.style.background = 'black'
-document.querySelector('img#hplogo').style.filter = 'grayScale(100%)'
+alert('Olá, Mundo!');
+document.body.style.background = 'black' 
+document.querySelector('img#hplogo')
+document.querySelector('img#hplogo').style.filter = 'grayscale(100%)'
 document.querySelector('img#hplogo').style.visibility = 'hidden'
-document.querySelector('span.bstn-hl-title').innerText = "Novo título do artigo principal do site G1."
+
+// abrindo site G1
+
+document.querySelector('h1.content-head__title').innerText = "Bianca Pacheco Nunes declara que a familinha BiDanDani é o que ela mais ama no mundo"
+
 
 /*
 TRANSCRIÇÃO 
