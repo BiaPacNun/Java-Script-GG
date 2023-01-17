@@ -8,6 +8,11 @@ Pois, para responder a essas e muitas outras perguntas, assista essa aula do Cur
 
 alert("Olá, Mundo!");
 prompt.alert("Olá, Mundo 2!");
+alert("Olá, Mundo!")
+document.body.style.background = 'black'
+document.querySelector('img#hplogo').style.filter = 'grayScale(100%)'
+document.querySelector('img#hplogo').style.visibility = 'hidden'
+document.querySelector('span.bstn-hl-title').innerText = "Daniel e Bia, casal apeixonades, vão começar a estudar Programação e redesenharão a rota de vida, agora à três!"
 
 /*
 TRANSCRIÇÃO 
