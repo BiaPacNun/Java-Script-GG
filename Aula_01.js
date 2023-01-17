@@ -12,7 +12,7 @@ alert("Olá, Mundo!")
 document.body.style.background = 'black'
 document.querySelector('img#hplogo').style.filter = 'grayScale(100%)'
 document.querySelector('img#hplogo').style.visibility = 'hidden'
-document.querySelector('span.bstn-hl-title').innerText = "Daniel e Bia, casal apeixonades, vão começar a estudar Programação e redesenharão a rota de vida, agora à três!"
+document.querySelector('span.bstn-hl-title').innerText = "Novo título do artigo principal do site G1."
 
 /*
 TRANSCRIÇÃO 
