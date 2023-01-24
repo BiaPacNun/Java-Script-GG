@@ -7,6 +7,12 @@ Pois, para responder a essas e muitas outras perguntas, assista essa aula do Cur
 
 Aula do Curso de JavaScript e ECMAScript para Iniciantes, criado pelo professor Gustavo Guanabara para o canal CursoemVideo.*/
 
+
+/*
+ANOTAÇÕES DA AULA 05
+*/
+
+
 /*TRANSCRIÇÃO
     0:00
 Como de costume, antes da aula, eu vou te fazer quatro perguntas: Em primeiro lugar, você já aprendeu como se gerencia pastas utilizando o Visual Studio Code?
