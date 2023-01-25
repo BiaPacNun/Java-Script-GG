@@ -1,15 +1,19 @@
 // Variáveis e Tipos Primitivos
 // Link da aula: https://www.youtube.com/watch?v=Vbabsye7mWo
 
-/*Você sabe o que são variáveis? Sabe declarar variáveis em JavaScript? Sabe quais são os tipos primitivos do JavaScript? Consegue entender o que significa colocar um valor null dentro de uma variável em JavaScript?
-
-Pois, para responder a essas e muitas outras perguntas, assista essa aula do Curso de JavaScript para Iniciantes até o final. E não se esqueça sempre de praticar todas as atividades que fizermos durante o vídeo no seu próprio computador.
-
-Aula do Curso de JavaScript e ECMAScript para Iniciantes, criado pelo professor Gustavo Guanabara para o canal CursoemVideo.*/
-
-
 /*
 ANOTAÇÕES DA AULA 05
+Sobre fazer comentários nos códigos (só serve pra linguagem JS): O uso de // é para escrever comentário em uma única linha.
+Mas se a idéia é colocar o comentário em mais de uma linha, deve ser usado o /* e */.
+/* Nos comentários a cor fica diferente, e ao colocar o código para rodar, o que está comentado não aparece.
+
+Sinal de = leia-se como "recebe".
+"Null" significa nula, sem nada. 
+Variáveis são como as vagas de um estacionamento, como se fossem espaços na memória do computador.
+Variáveis servem para guardar dados.
+Strings são cadeias de caracteres. 
+Verdadeiro e Falso são valores booleanos. 
+Tipos Primitivos Primordiais: Números, Strings e Booleans.  
 */
 
 
