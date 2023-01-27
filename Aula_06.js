@@ -3,3 +3,4 @@
 /* Anotações:
 Para escrever comentários no HTML é diferente do JS, se usa <!-- -->
 Pra escrever comentários no CSS é */ /* 
+O sinal de + significa Concatenação. 

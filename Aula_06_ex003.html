@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Programa</title>
+    <style>
+    body {
+        background-color: rgb(72, 72, 185);
+        color: white;
+        font: normal 20pt Arial;
+}
+h1 {
+    color: rgb(245, 245, 64);
+} 
+    </style>
+    <!-- Em CSS todo final de marcação tem um ponto e vírgula ; -->
+
+</head>
+<body>
+<h1>Olá, Mundo!</h1>
+<p>Já me livrei da maldição!</p>
+<script>
+var n1 = window.prompt('Digite um número: ')
+var n2 = window.prompt('Digite outro número: ')
+// Prompt vai sempre retornar uma String (é uma característica do comando)
+// String + String é CONCATENAÇÃO
+// Number + Number é ADIÇÃO 
+// Então se eu quiser a SOMA de n1 + n2 eu tenho que converter estas 2 Strings em Números.
+// Para converter eu uso os comandos parse.Int (para números inteiros) ou parce.Float (para números reais).
+// Para estas conversões de strings para números dos códigos das linhas 25 e 26 acontecerem, os códigos tem que ser escritos assim:
+
+var n1 = Number.parseInt (window.prompt('Digite um número: '))
+var n2 = Number.parseInt (window.prompt('Digite outro número: '))
+var s = n1+n2 
+window.alert('A soma dos valores é ' + s)
+
+// Na versão mais nova do ECMAScript basta vc escrever Number, sem o .parseInt ou .parceFloat
+// O JS vai entender sozinho se é número inteiro ou real.
+</script>
+    
+</body>
+</html>
