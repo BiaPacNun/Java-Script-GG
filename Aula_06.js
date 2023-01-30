@@ -4,12 +4,9 @@
 Para escrever comentários no HTML é diferente do JS, se usa <!-- -->
 Pra escrever comentários no CSS é */ /* 
 O sinal de + significa Concatenação
-
-
-
 */
 
-/* TRANSCRIÇÃO
+/*TRANSCRIÇÃO
 0:00
 Como sempre estamos fazendo em todas as aulas, antes de assistir esse vídeo até o final, tenta me respondeu algumas perguntas:
 0:05
