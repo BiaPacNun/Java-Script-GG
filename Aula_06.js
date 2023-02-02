@@ -6,6 +6,10 @@ Pra escrever comentários no CSS é */ /*
 O sinal de + significa Concatenação
 */
 
+// Template Strings é o Formatador de Strings e é uma novidade das últimas versões do Ecmascript.
+// Crase ` é o delimitador de String 
+// Place holder é ${}
+
 /*TRANSCRIÇÃO
 0:00
 Como sempre estamos fazendo em todas as aulas, antes de assistir esse vídeo até o final, tenta me respondeu algumas perguntas:
