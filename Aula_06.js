@@ -7,8 +7,14 @@ O sinal de + significa Concatenação
 */
 
 // Template Strings é o Formatador de Strings e é uma novidade das últimas versões do Ecmascript.
-// Crase ` é o delimitador de String 
-// Place holder é ${}
+// Crase ` é o delimitador de String (lembrar de "abrir e fechar a crase" logo no começo do template string) 
+// Place holder é ${} que vai dentro uma variável, mas terá seu valor lido no decorrer da "string"
+// `Olá, bem-vindo(a) sr(a). ${nome}, ao curso de JavaScript.`
+
+
+
+
+
 
 /*TRANSCRIÇÃO
 0:00
