@@ -11,7 +11,24 @@ O sinal de + significa Concatenação
 // Place holder é ${} que vai dentro uma variável, mas terá seu valor lido no decorrer da "string"
 // `Olá, bem-vindo(a) sr(a). ${nome}, ao curso de JavaScript.`
 
+// Prompt vai sempre retornar uma String (é uma característica do comando)
+// String + String é CONCATENAÇÃO
+// Number + Number é ADIÇÃO 
+// Então se eu quiser a SOMA de n1 + n2 eu tenho que converter estas 2 Strings em Números.
+// Para converter eu uso os comandos parse.Int (para números inteiros) ou parce.Float (para números reais, com vírgula).
+// Para estas conversões de strings para números dos códigos das linhas 25 e 26 acontecerem, os códigos tem que ser escritos assim:
 
+/*Na versão mais nova do ECMAScript basta vc escrever Number, sem o .parseInt ou .parceFloat
+O JS vai entender sozinho se é número inteiro ou real */
+
+/* Quando digitar um número real com vírgula, usar PONTO . ao invés de vírgula. 
+Se digitar o número real com vírgula não vai funcionar */
+
+/* Para converter número para string existem 2 maneiras:
+String(n)
+ou
+n.toString()
+*/ 
 
 
 
