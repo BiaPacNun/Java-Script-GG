@@ -6,11 +6,6 @@ Pra escrever comentários no CSS é */ /*
 O sinal de + significa Concatenação
 */
 
-// Template Strings é o Formatador de Strings e é uma novidade das últimas versões do Ecmascript.
-// Crase ` é o delimitador de String (lembrar de "abrir e fechar a crase" logo no começo do template string) 
-// Place holder é ${} que vai dentro uma variável, mas terá seu valor lido no decorrer da "string"
-// `Olá, bem-vindo(a) sr(a). ${nome}, ao curso de JavaScript.`
-
 // Prompt vai sempre retornar uma String (é uma característica do comando)
 // String + String é CONCATENAÇÃO
 // Number + Number é ADIÇÃO 
@@ -29,6 +24,32 @@ String(n)
 ou
 n.toString()
 */ 
+
+// Template Strings é o Formatador de Strings e é uma novidade das últimas versões do Ecmascript.
+// Crase ` é a delimitação de Template Strings (não esquecer de fechar) E É CRASE NÃO APÓSTROFO.
+// Place Holder é ${} 
+// Usando CONCATENAÇÃO ou TEMPLATE STRINGS o  resultado é o MESMO, apenas Template Strings é uma novidade das últimas versões do ECMAScript.
+// s.length diz qual é o tamanho da string, quantas letras tem a string. 
+// s.toUpperCase() é para tornar tudo em letras maiúsculas
+// s.toLowerCase() coloca tudo em letras minúsculas
+// h2 faz título no HTML
+// writeln escreve uma linha inteira e ao final pula para outra linha, assim como o br de "break", que também serve para pular de linha.
+
+/* Para colocar o número de casas decimais desejado em um número: toFixed()
+Dentro dos parênteses colocar o número de casas decimais desejado. Por exemplo:
+var n1 = 1545.5 e eu quero 2 casas decimais. Colocar: n1.toFixed(2). Irá virar 1545.50 /*
+
+/* Se quiser substituir o ponto (.) por vírgula (,) usar:
+n1.toFixed(2).replace('.', ',')
+Que vai dar 1545,50 /*
+
+/* Para transformar um número em moeda usar n1.toLocaleString('pt-BR' , {style : 'currency' , currency : 'BRL'})
+Então o número 1545,50 se tornará R$ 1.545,50. */
+/* Se quiser mudar para alguma outra moeda basta mudar a currency. O 'pt-BR' continua. Ex:
+n1.toLocaleString('pt-BR' , {style : 'currency' , currency : 'USD'}) */
+
+
+
 
 
 

@@ -33,13 +33,18 @@ var n2 = window.prompt('Digite outro número: ')
 // Para converter eu uso os comandos parse.Int (para números inteiros) ou parce.Float (para números reais, com vírgula).
 // Para estas conversões de strings para números dos códigos das linhas 25 e 26 acontecerem, os códigos tem que ser escritos assim:
 
-var n1 = Number.parseInt(window.prompt('Digite um número: '))
+/* var n1 = Number.parseInt(window.prompt('Digite um número: '))
 var n2 = Number.parseInt(window.prompt('Digite outro número: ')) // ou parseFloat ou Number() apenas, JS que se vira... 
 var s = n1 + n2 
-window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}.`)
+window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}.`) */
 
 /*Na versão mais nova do ECMAScript basta vc escrever Number, sem o .parseInt ou .parceFloat
 O JS vai entender sozinho se é número inteiro ou real */
+
+var n1 = Number(window.prompt('Digite um número: '))
+var n2 = Number(window.prompt('Digite outro número: '))
+var s = n1 + n2
+window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
 
 /* Quando digitar um número real com vírgula, usar PONTO . ao invés de vírgula. 
 Se digitar o número real com vírgula não vai funcionar */
